@@ -1,4 +1,4 @@
-# BmwTable
+# BMW's History of M cars
 
 ## Description
 This page is all about BMW's famous M cars. There is a bit of orign story of how these cars where made,  in what circumstances, by who and why.
