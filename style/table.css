@@ -1,0 +1,31 @@
+.tableName {
+    font-size: 170%;
+    padding: 20px 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.table__title {
+    font-size: 120%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.table__cell {
+    border: 1px solid #ddd;
+    background-color: #ad9d94fb;
+    text-align: center;
+}
+
+.table__header {
+    background-color: #858382;
+    padding: 10px 10px;
+}

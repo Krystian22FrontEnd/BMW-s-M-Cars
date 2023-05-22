@@ -1,0 +1,13 @@
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #faf7e95d;
+    padding: 10px 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.dark {
+    background-color: #646f7a;
+    color: #21e0e0;
+}

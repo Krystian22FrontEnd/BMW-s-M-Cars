@@ -1,0 +1,33 @@
+.navigation {
+    text-align: center;
+    line-height: 1.5;
+    border: 1px solid #faf7e95d;
+    background-color: #94949436;
+    padding-right: 20px;
+}
+
+.navigation__item {
+    display: inline-block;
+    padding: 5px;
+    margin: 20px 10px;
+    position: relative;
+    border: 1px solid #f5ecec;
+    background-color: #f5ecec;
+    box-shadow: 6px -4px 7px 2px #B794A8;
+    ;
+}
+
+.navigation__link {
+    color: #54c1f3;
+    text-decoration: none;
+}
+
+.navigation__link:visited {
+    color: #1c76eb;
+}
+
+.navigation__link:hover {
+    color: #0d3f6d;
+    border-bottom: 1px solid red;
+    outline: none;
+}

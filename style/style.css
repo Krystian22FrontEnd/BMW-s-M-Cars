@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.header {
+    border: 2px solid #faf7e95d;
+    font-weight: bold;
+    font-size: 300%;
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #7db1a1a2;
+}
+
+.main {
+    padding-left: 10px;
+}
+
+.themeChange {
+    font-size: 30px;
+    background-color: #cabcbc;
+}
+
+.themeChange:hover {
+    background-color: #9b5555;
+    color: #ffffff;
+}
+
+
+.intro {
+    border: solid #868686;
+    border-radius: 20px 10px;
+    padding: 10px;
+    background-color: #7db1a1a2;
+    box-shadow: 6px -4px 12px 1px #9E8182;
+    margin-bottom: 20px;
+}
+
+.bmwImage {
+    width: 400px;
+    height: 300px;
+    padding: 10px 10px
+}
+
+.attention {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.footer {
+    padding: 30px 20px;
+    border: 2px solid #d4cbcade;
+    margin: 10px 0;
+    text-align: center;
+    background-color: #d4cbcade;
+    outline: 1px solid #b3adacde;
+    color: white;
+}
+
+.return {
+    list-style-type: none;
+    padding-left: 20px;
+}
