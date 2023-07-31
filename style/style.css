@@ -22,6 +22,10 @@ body {
     background-color: #7db1a1a2;
 }
 
+.second__header {
+    font-size: 200%;
+}
+
 .main {
     padding-left: 10px;
 }
