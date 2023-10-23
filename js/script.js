@@ -1,11 +1,30 @@
-console.log("hi");
+{
 
-let button = document.querySelector(".button");
-let container = document.querySelector(".container");
-let themeName = document.querySelector(".themeName");
+    const welcome = () => {
+        console.log("hi");
+    }
 
-button.addEventListener("click", () => {
-    container.classList.toggle("dark");
 
-    themeName.innerText = container.classList.contains("dark") ? " - jasny" : " - ciemny";
-});
+
+    const toggleBackground = () => {
+        const container = document.querySelector(".container");
+        const themeName = document.querySelector(".themeName");
+        
+        container.classList.toggle("dark");
+        themeName.innerText = container.classList.contains("dark") ? " - jasny" : " - ciemny";
+        
+    };
+
+
+
+    const init = () => {
+        const button = document.querySelector(".button");
+
+
+        button.addEventListener("click", toggleBackground);
+
+        welcome();
+    };
+
+    init();
+};
